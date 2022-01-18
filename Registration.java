@@ -1,4 +1,4 @@
-package com.mycompany.all_awt;
+
 
 import java.awt.*;
 
