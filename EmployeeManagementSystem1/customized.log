@@ -1,0 +1,94 @@
+28 Feb 2022 - 12:26:08.565 [restartedMain] INFO  c.s.e.EmployeeManagementSystem1Application - Starting EmployeeManagementSystem1Application using Java 16.0.2 on LAPTOP-L2REGDJ0 with PID 19472 (C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1\target\classes started by MONALISA in C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1)
+28 Feb 2022 - 12:26:08.566 [restartedMain] INFO  c.s.e.EmployeeManagementSystem1Application - No active profile set, falling back to default profiles: default
+28 Feb 2022 - 12:26:08.701 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Feb 2022 - 12:26:08.711 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+28 Feb 2022 - 12:26:08.776 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+28 Feb 2022 - 12:26:08.776 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+28 Feb 2022 - 12:26:08.776 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+28 Feb 2022 - 12:26:08.793 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+28 Feb 2022 - 12:26:08.793 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 225 ms
+28 Feb 2022 - 12:26:08.818 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Feb 2022 - 12:26:08.822 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+28 Feb 2022 - 12:26:08.839 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+28 Feb 2022 - 12:26:08.839 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+28 Feb 2022 - 12:26:08.865 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28 Feb 2022 - 12:26:08.865 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 12:26:08.921 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Feb 2022 - 12:26:08.981 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+28 Feb 2022 - 12:26:08.989 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+28 Feb 2022 - 12:26:08.994 [restartedMain] INFO  c.s.e.EmployeeManagementSystem1Application - Started EmployeeManagementSystem1Application in 0.481 seconds (JVM running for 3265.4)
+28 Feb 2022 - 12:26:08.996 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+28 Feb 2022 - 12:26:35.316 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28 Feb 2022 - 12:26:35.317 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+28 Feb 2022 - 12:26:35.318 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+28 Feb 2022 - 12:26:35.326 [http-nio-8085-exec-2] INFO  c.s.e.controller.EmployeeController - Employee has been added!!!!Employee(id=0, firstName=ruma, lastName=chakraborty, email=ruma@gmail.com) done on Mon Feb 28 12:26:35 PST 2022
+28 Feb 2022 - 12:26:35.326 [http-nio-8085-exec-2] INFO  c.s.ems.service.impl.EmployeeService - Inside servive Layer!!!!Mon Feb 28 12:26:35 PST 2022
+28 Feb 2022 - 12:35:29.421 [RMI TCP Connection(102)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+28 Feb 2022 - 12:35:29.572 [RMI TCP Connection(102)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 12:35:29.573 [RMI TCP Connection(102)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+28 Feb 2022 - 12:35:29.576 [RMI TCP Connection(102)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+28 Feb 2022 - 12:42:04.936 [main] INFO  c.s.e.c.EmployeeControllerTest - Starting EmployeeControllerTest using Java 16.0.2 on LAPTOP-L2REGDJ0 with PID 19032 (started by MONALISA in C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1)
+28 Feb 2022 - 12:42:04.937 [main] INFO  c.s.e.c.EmployeeControllerTest - No active profile set, falling back to default profiles: default
+28 Feb 2022 - 12:42:07.408 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+28 Feb 2022 - 12:42:07.410 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+28 Feb 2022 - 12:42:07.412 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+28 Feb 2022 - 12:42:07.469 [main] INFO  c.s.e.c.EmployeeControllerTest - Started EmployeeControllerTest in 3.384 seconds (JVM running for 4.846)
+28 Feb 2022 - 12:42:48.972 [main] INFO  c.s.e.c.EmployeeControllerTest - Starting EmployeeControllerTest using Java 16.0.2 on LAPTOP-L2REGDJ0 with PID 19368 (started by MONALISA in C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1)
+28 Feb 2022 - 12:42:48.973 [main] INFO  c.s.e.c.EmployeeControllerTest - No active profile set, falling back to default profiles: default
+28 Feb 2022 - 12:42:51.065 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+28 Feb 2022 - 12:42:51.066 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+28 Feb 2022 - 12:42:51.067 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+28 Feb 2022 - 12:42:51.101 [main] INFO  c.s.e.c.EmployeeControllerTest - Started EmployeeControllerTest in 2.759 seconds (JVM running for 4.21)
+28 Feb 2022 - 12:43:32.901 [main] INFO  c.s.ems.service.EmployeeServiceTest - Starting EmployeeServiceTest using Java 16.0.2 on LAPTOP-L2REGDJ0 with PID 9336 (started by MONALISA in C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1)
+28 Feb 2022 - 12:43:32.902 [main] INFO  c.s.ems.service.EmployeeServiceTest - No active profile set, falling back to default profiles: default
+28 Feb 2022 - 12:43:33.894 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Feb 2022 - 12:43:33.958 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+28 Feb 2022 - 12:43:35.045 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Feb 2022 - 12:43:35.116 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+28 Feb 2022 - 12:43:35.173 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28 Feb 2022 - 12:43:35.348 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Feb 2022 - 12:43:35.704 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Feb 2022 - 12:43:35.723 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+28 Feb 2022 - 12:43:36.354 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28 Feb 2022 - 12:43:36.361 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 12:43:36.680 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Feb 2022 - 12:43:37.489 [main] INFO  c.s.ems.service.EmployeeServiceTest - Started EmployeeServiceTest in 5.023 seconds (JVM running for 6.354)
+28 Feb 2022 - 12:43:37.575 [main] INFO  c.s.ems.service.impl.EmployeeService - Inside servive Layer!!!!Mon Feb 28 12:43:37 PST 2022
+28 Feb 2022 - 12:43:37.729 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 12:43:37.732 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+28 Feb 2022 - 12:43:37.744 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+28 Feb 2022 - 12:44:23.809 [main] INFO  c.s.ems.service.EmployeeServiceTest - Starting EmployeeServiceTest using Java 16.0.2 on LAPTOP-L2REGDJ0 with PID 10400 (started by MONALISA in C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1)
+28 Feb 2022 - 12:44:23.811 [main] INFO  c.s.ems.service.EmployeeServiceTest - No active profile set, falling back to default profiles: default
+28 Feb 2022 - 12:44:24.857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Feb 2022 - 12:44:24.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+28 Feb 2022 - 12:44:26.076 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Feb 2022 - 12:44:26.143 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+28 Feb 2022 - 12:44:26.201 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28 Feb 2022 - 12:44:26.380 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Feb 2022 - 12:44:26.722 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Feb 2022 - 12:44:26.740 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+28 Feb 2022 - 12:44:27.368 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28 Feb 2022 - 12:44:27.376 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 12:44:27.696 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Feb 2022 - 12:44:28.480 [main] INFO  c.s.ems.service.EmployeeServiceTest - Started EmployeeServiceTest in 5.2 seconds (JVM running for 6.488)
+28 Feb 2022 - 12:44:28.539 [main] INFO  c.s.ems.service.impl.EmployeeService - Inside servive Layer!!!!Mon Feb 28 12:44:28 PST 2022
+28 Feb 2022 - 12:44:28.659 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 12:44:28.662 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+28 Feb 2022 - 12:44:28.677 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+28 Feb 2022 - 18:16:34.686 [main] INFO  c.s.ems.service.EmployeeServiceTest - Starting EmployeeServiceTest using Java 16.0.2 on LAPTOP-L2REGDJ0 with PID 20208 (started by MONALISA in C:\Users\MONALISA\Documents\workspace-spring-tool-suite-4-4.12.0.RELEASE\EmployeeManagementSystem1)
+28 Feb 2022 - 18:16:34.689 [main] INFO  c.s.ems.service.EmployeeServiceTest - No active profile set, falling back to default profiles: default
+28 Feb 2022 - 18:16:35.881 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28 Feb 2022 - 18:16:35.954 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+28 Feb 2022 - 18:16:37.248 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+28 Feb 2022 - 18:16:37.332 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+28 Feb 2022 - 18:16:37.394 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28 Feb 2022 - 18:16:37.626 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+28 Feb 2022 - 18:16:38.086 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+28 Feb 2022 - 18:16:38.105 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+28 Feb 2022 - 18:16:38.818 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28 Feb 2022 - 18:16:38.826 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 18:16:39.189 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28 Feb 2022 - 18:16:40.038 [main] INFO  c.s.ems.service.EmployeeServiceTest - Started EmployeeServiceTest in 6.162 seconds (JVM running for 7.752)
+28 Feb 2022 - 18:16:40.219 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+28 Feb 2022 - 18:16:40.222 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+28 Feb 2022 - 18:16:40.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
